@@ -10,26 +10,35 @@
   </head>
   <body>
     <header>
-      <nav id="navigationBar" class="navigationBar">
-        <div class="navLinks">
-          <!-- span emoji logo -->
-          <!-- header -->
-          <!-- 3 anchors with href to section home, about us, contact -->
+      <nav
+        id="navigationBar"
+        class="navigationBar"
+        role="navigation"
+        aria-label="Main Navigation"
+      >
+        <div id="navLinks" class="navLinks">
+          <a href="#home" class="navItem" aria-current="page">Home</a>
+          <a href="#payments" class="navItem" aria-current="page">Payments</a>
+          <a href="#about" class="navItem" aria-current="page">About</a>
         </div>
       </nav>
     </header>
     <main>
-      <section id="heroSection" class="heroSection">
+      <!-- Hero Section -->
+      <section class="heroSection">
         <div class="flex-column">
           <h2>Enter... the banking app that changes everything</h2>
-          <img src="../assets/images/bank.png" id="appIcon" class="appIcon" />
+          <img
+            src="../assets/images/bank.png"
+            id="appIcon"
+            class="appIcon"
+            alt="Bank Icon"
+          />
         </div>
         <div class="flex-column">
           <p>Best investment you'll ever make</p>
           <button id="ctaButton" class="ctaButton">Apply now!</button>
         </div>
-        <!-- modal -->
-        <!-- <div class="heroSection modalComponent"></div> -->
       </section>
       <section class="heroSection">
         <!-- feature go here -->
