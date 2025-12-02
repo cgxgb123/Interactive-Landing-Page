@@ -1,4 +1,4 @@
-# 🌍 Interactive Banking Landing Page
+# Interactive Banking Landing Page
 
 ![Bank](./assets/images/bank.png)
 
@@ -10,8 +10,7 @@ A responsive, interactive landing page for a fictional banking and financial ser
 
 - [Technologies Used](#technologiesused)
 - [Features](#features)
-- [Design](#design)
-- [Project Next Steps](#nextsteps)
+- [Future Features](#nextsteps)
 - [Deployed App](#deployment)
 - [About the Author](#author)
 
@@ -30,46 +29,41 @@ A responsive, interactive landing page for a fictional banking and financial ser
 ## <a name="features"></a> Features
 
 - UI / UX
-    - Landing page with responsive layout using Flexbox
-    - CTA button that triggers an animated modal
-    - Focused modal flow modeled after fintech onboarding UI (Klarna, Stripe, Afterpay, etc.)
+  - Landing page with responsive layout using Flexbox
+  - CTA button that triggers an animated modal
+  - Focused modal flow modeled after fintech onboarding UI (Klarna, Stripe, Afterpay, etc.)
 - Modal Functionality
-    - Form input fields:
-        - First / Last Name
-        - Address details
-        - Date of Birth
-        - SSN (last 4)
-    - Loading spinner animation after submission
+  - Form input fields:
+    - First / Last Name
+    - Address details
+    - Date of Birth
+    - SSN (last 4)
+  - Loading spinner animation after submission
 - Live API JSON response from backend
 
-## <a name="design"></a>Design
+## <a name="nextsteps"></a>Future Features
 
-- Design elements implemented using HTML5 and CSS3.
-
-## <a name="nextsteps"></a>Project Next Steps
-
-- Allow the user to chose player one or player two.
-- Allow users to play against computer.
-- Add a timer
-- Add a scoreboard.
-- Users can change the theme.
+- Fix API.
+- Add a theme toggle (light/dark)
+- Mask SSN input into field
 
 ## <a name="deployment"></a>Deployed Link
 
-[Github Pages](https://cgxgb123.github.io/REST-Countries-API/)
+[Github Pages](https://cgxgb123.github.io/Interactive-Landing-Page/)
 
 - You can view the repository here:
-  [Github](https://github.com/cgxgb123/REST-Countries-API)
+  [Github](https://github.com/cgxgb123/Interactive-Landing-Page)
 - If unable to view please go live locally through VS Code
 
-## <a name="author"></a>About The Author
+## <a name="author"></a>About The Authors
 
-Hi!. My name is **Christian Blunt** and i’m an aspiring technologist and problem-solver with a passion for creating intuitive applications that blend functionality with real-world purpose. My work is driven by curiosity. Whether I’m building tools inspired by global data, automating workflows, or developing small projects tied to my personal interests, I enjoy exploring how technology can make everyday experiences easier and more efficient.
+- **[Anwar Zeb](https://github.com/a-zeb)**
+- **[Christian Blunt](https://github.com/cgxgb123)**
+- **[Tyler Stallworth](https://github.com/tylerstallworth15-ship-it)**
 
 ## Works Cited:
 
-- https://developer.mozilla.org/en-US/docs/Web/API/Location/search
-- https://www.w3schools.com/jquery/jquery_ref_events.asp
-- https://html.spec.whatwg.org/multipage/nav-history-apis.html#dom-window-dev
-- https://www.w3schools.com/java/java_constructors.asp
-- https://github.com/michael-schlueter/fem-rest-countries
+- https://expressjs.com/en/guide/routing.html
+- https://axios-http.com/docs/api_intro
+- https://cdn.prod.website-files.com/61e7438b67e97b93ebe88843/6762ff344189c54f3fe0cec4_iSoftpull%20API%20Docs%202024.pdf
+- https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/CORS
