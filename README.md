@@ -1,4 +1,4 @@
-# 🌍 Interactive Banking Landing Page
+# Interactive Banking Landing Page
 
 ![Bank](./assets/images/bank.png)
 
@@ -55,11 +55,11 @@ A responsive, interactive landing page for a fictional banking and financial ser
   [Github](https://github.com/cgxgb123/Interactive-Landing-Page)
 - If unable to view please go live locally through VS Code
 
-## <a name="author"></a>About The Author
+## <a name="author"></a>About The Authors
 
-**[Anwar Zeb]**(https://github.com/a-zeb)
-**[Christian Blunt]**(https://github.com/cgxgb123)
-**[Tyler Stallworth]**(https://github.com/tylerstallworth15-ship-it)
+- **[Anwar Zeb](https://github.com/a-zeb)**
+- **[Christian Blunt](https://github.com/cgxgb123)**
+- **[Tyler Stallworth](https://github.com/tylerstallworth15-ship-it)**
 
 ## Works Cited:
 
