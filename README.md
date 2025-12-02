@@ -4,13 +4,12 @@
 
 ## Description
 
-A responsive, interactive, and accessible web application that allows users to explore global country data using the REST Countries API. (Built as part of the Frontend Mentor challenge). Users can search for a country, filter by region, and view detailed information, including population, languages, currencies, and neighboring countries.
+A responsive, interactive landing page for a fictional banking and financial services company. Users can view a call-to-action modal designed to simulate a real pre-qualification application experience, including form entry, staged loading UI, and mock API response handling.
 
 ## Table of Contents
 
 - [Technologies Used](#technologiesused)
 - [Features](#features)
-- [Trello](#trello-planning)
 - [Design](#design)
 - [Project Next Steps](#nextsteps)
 - [Deployed App](#deployment)
@@ -21,32 +20,27 @@ A responsive, interactive, and accessible web application that allows users to e
 - JavaScript
 - HTML5
 - CSS3
-- REST Countries API
+- iSoftPull API
+- Node.js
+- Express
+- Axios
+- dotenv
+- CORS
 
 ## <a name="features"></a> Features
 
-- Displays each card in a grid showing:
-
-  - Flag
-  - Country name
-  - Population
-  - Region
-  - Capital
-  - Languages
-
-- Search for any country by name
-
-- Filter countries by region:
-
-  - Africa
-  - Americas
-  - Asia
-  - Europe
-  - Oceania
-
-## <a name="trello"></a> Trello Planning
-
-- https://trello.com/b/4SyQ8hRP/project-1-html-css-javascript
+- UI / UX
+    - Landing page with responsive layout using Flexbox
+    - CTA button that triggers an animated modal
+    - Focused modal flow modeled after fintech onboarding UI (Klarna, Stripe, Afterpay, etc.)
+- Modal Functionality
+    - Form input fields:
+        - First / Last Name
+        - Address details
+        - Date of Birth
+        - SSN (last 4)
+    - Loading spinner animation after submission
+- Live API JSON response from backend
 
 ## <a name="design"></a>Design
 

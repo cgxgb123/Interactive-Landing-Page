@@ -9,6 +9,8 @@ document.getElementById("close-modal").addEventListener("click", () => {
 document.getElementById("close-result").addEventListener("click", () => {
   document.getElementById("modal-overlay").classList.add("hidden");
   document.getElementById("result-box").classList.add("hidden");
+  document.getElementById("api-response").classList.add("hidden");
+  document.getElementById("loading-state").classList.add("hidden");
   document.getElementById("prequal-form").classList.remove("hidden");
 });
 
@@ -36,9 +38,7 @@ document
     document.getElementById("result-ssn").textContent = `SSN (Last 4): ${ssn}`;
 
     document.getElementById("prequal-form").classList.add("hidden");
-    document.getElementById("result-box").classList.remove("hidden");
-
-    e.target.reset();
+    document.getElementById("loading-state").classList.remove("hidden");
 
     const payload = {
       first_name: "Steve",
@@ -51,16 +51,34 @@ document
       date_of_birth: "08/15/1980",
     };
 
+    let data;
+
     try {
       const response = await fetch("http://localhost:3000/api/prequal", {
         method: "POST",
-        headers: { "Content-Type": "application/json" },
+        headers: {
+          "Content-Type": "application/json",
+        },
         body: JSON.stringify(payload),
       });
 
-      const data = await response.json();
+      data = await response.json();
       console.log("Soft Pull Result:", data);
     } catch (err) {
       console.error("Fetch error:", err);
+      data = { error: "API request failed" };
     }
+
+    document.getElementById("loading-state").classList.add("hidden");
+
+    document.getElementById("result-box").classList.remove("hidden");
+    document.getElementById("api-response").classList.remove("hidden");
+
+    document.getElementById("api-response").textContent = JSON.stringify(
+      data,
+      null,
+      2
+    );
+
+    e.target.reset();
   });
