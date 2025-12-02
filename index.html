@@ -1,39 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Best Shirts</title>
-    <link rel="stylesheet" href="./src/css/styles.css" />
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Best Banking</title>
+        <link rel="stylesheet" href="./src/css/styles.css" />
     <link rel="stylesheet" href="./src/css/modal.css" />
     <script src="./src/js/modal.js" defer></script>
-    <script src="./src/js/script.js" defer></script>
-  </head>
-  <body>
-    <header>
-      <nav id="navigationBar" class="navigationBar">
-        <div class="navLinks">
-          <!-- span emoji logo -->
-          <!-- header -->
+        <script src="./src/js/script.js" defer></script>
+    </head>
+    <body>
+        <header>
+            <nav id="navigationBar" class="navigationBar">
+                <div class="navLinks">
+                    <!-- span emoji logo -->
+                    <!-- header -->
           <!-- 3 anchors with href to section home, about us, contact -->
-        </div>
-      </nav>
-    </header>
-    <main>
+                </div>
+            </nav>
+        </header>
+        <main>
       <section id="heroSection" class="heroSection">
-        <div class="flex-column">
-          <h2>Enter... the shirt that changes everything</h2>
-          <img
-            src="../assets/images/white-t.png"
-            id="shirtIcon"
-            class="shirtIcon"
-          />
-        </div>
-        <div class="flex-column">
-          <p>If you don't buy this, then idk man.</p>
-          <button id="ctaButton" class="ctaButton">Buy now!</button>
-        </div>
-      </section>
+                <div class="flex-column">
+                    <h2>Enter... the banking app that changes everything</h2>
+                    <img
+                        src="../assets/images/bank.png"
+                        id="appIcon"
+                        class="appIcon"
+                    />
+                </div>
+                <div class="flex-column">
+                    <p>Best investment you'll ever make</p>
+                    <button id="ctaButton" class="ctaButton">Apply now!</button>
+                </div>
+                <!-- modal -->
+                <!-- <div class="heroSection modalComponent"></div> -->
+            </section>
+            <section class="heroSection">
+                <!-- feature go here -->
+            </section>
       <div id="modal-overlay" class="modal-overlay hidden">
         <div class="modal-box">
           <button id="close-modal" class="close-btn">&times;</button>
@@ -81,23 +86,9 @@
         </div>
       </div>
 
-      <section class="heroSection">
-        <!-- about us goes here -->
-      </section>
-      <section class="heroSection">
-        <form action="">
-          <label for="name">Name:</label>
-          <input type="text" id="name" name="name" required />
-
-          <label for="email">Email:</label>
-          <input type="email" id="email" name="email" required />
-
-          <label for="message">Message:</label>
-          <textarea id="message" name="message" required></textarea>
-
-          <button type="submit">Submit</button>
-        </form>
-      </section>
-    </main>
-  </body>
+            <section class="heroSection">
+                <!-- about us goes here -->
+            </section>
+        </main>
+    </body>
 </html>
