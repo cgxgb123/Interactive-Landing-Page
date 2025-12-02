@@ -17,7 +17,6 @@ app.post("/api/prequal", async (req, res) => {
         headers: {
           "api-key": process.env.ISOFTPULL_KEY_ID,
           "api-secret": process.env.ISOFTPULL_SECRET,
-          "Content-Type": "application/json",
         },
       }
     );
