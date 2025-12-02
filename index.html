@@ -7,7 +7,6 @@
     <link rel="stylesheet" href="./src/css/styles.css" />
     <link rel="stylesheet" href="./src/css/modal.css" />
     <script src="./src/js/modal.js" defer></script>
-    <script src="./src/js/script.js" defer></script>
   </head>
   <body>
     <header>
@@ -72,6 +71,12 @@
             />
             <button type="submit" class="submit-btn">Check Eligibility</button>
           </form>
+          <div id="loading-state" class="loading-state hidden">
+            <div class="spinner"></div>
+            <p>Processing your eligibility...</p>
+          </div>
+
+          <div id="api-response" class="api-response hidden"></div>
 
           <div id="result-box" class="result-box hidden">
             <h3>Here’s what you submitted:</h3>
