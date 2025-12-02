@@ -18,25 +18,25 @@
       >
         <div id="navLinks" class="navLinks">
           <a href="#home" class="navItem" aria-current="page">Home</a>
-          <a href="#features" class="navItem" aria-current="page">Features</a>
-          <a href="#about" class="navItem" aria-current="page">About</a>
+          <a href="#features" class="navItem">Features</a>
+          <a href="#about" class="navItem">About</a>
         </div>
       </nav>
     </header>
-    <main>
-      <section class="heroSection">
-        <h2>Enter... the banking app that changes everything</h2>
+    <main id="mainContent" tabindex="-1">
+      <section id="home" class="heroSection" aria-labelledby="home-heading" aria-describedby="home-description">
+        <h2 id="home-heading">Enter... the banking app that changes everything</h2>
         <img
           src="../assets/images/bank.png"
           id="appIcon"
           class="appIcon"
           alt="Bank Icon"
         />
-        <p>Best investment you'll ever make.</p>
+        <p id="home-description">Best investment you'll ever make.</p>
         <button id="ctaButton" class="ctaButton">Apply now!</button>
       </section>
-      <section id="features" class="heroSection">
-        <h2>Why you should bank with us</h2>
+      <section id="features" class="heroSection" aria-labelledby="features-heading">
+        <h2 id="features-heading">Why you should bank with us</h2>
         <ol>
           <li>Low fees</li>
           <li>High interest rates</li>
@@ -44,9 +44,9 @@
           <li>User-friendly mobile app</li>
         </ol>
       </section>
-      <sectio id="about" class="heroSection">
-        <h2>About Us</h2>
-        <p>
+      <section id="about" class="heroSection" aria-labelledby="about-heading" aria-describedby="about-description">
+        <h2 id="about-heading">About Us</h2>
+        <p id="about-description">
           We are a financial management team passionate about making you money.
         </p>
       </section>
@@ -92,7 +92,7 @@
           <div id="api-response" class="api-response hidden"></div>
 
           <div id="result-box" class="result-box hidden">
-            <h3>Here’s what you submitted:</h3>
+            <h3>Thanks for signing up. Here’s what you submitted:</h3>
             <p id="result-name"></p>
             <p id="result-address"></p>
             <p id="result-dob"></p>
